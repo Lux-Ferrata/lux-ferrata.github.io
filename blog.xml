@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Lux Ferrata</title>
-<link>https://luxferrata.org/blog.html</link>
-<atom:link href="https://luxferrata.org/blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://lux-ferrata.org/blog.html</link>
+<atom:link href="https://lux-ferrata.org/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Personal blog.</description>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Mon, 30 Mar 2026 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Mon, 30 Mar 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Book Review: A Memory Called Empire</title>
   <dc:creator>Lux Ferrata</dc:creator>
-  <link>https://luxferrata.org/posts/book_review_a_memory_called_empire/</link>
+  <link>https://lux-ferrata.org/posts/book_review_a_memory_called_empire/</link>
   <description><![CDATA[ 
 
 
@@ -45,14 +45,14 @@
 
  ]]></description>
   <category>Book Review</category>
-  <guid>https://luxferrata.org/posts/book_review_a_memory_called_empire/</guid>
-  <pubDate>Mon, 30 Mar 2026 04:00:00 GMT</pubDate>
-  <media:content url="https://luxferrata.org/posts/book_review_a_memory_called_empire/thumbnail.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://lux-ferrata.org/posts/book_review_a_memory_called_empire/</guid>
+  <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://lux-ferrata.org/posts/book_review_a_memory_called_empire/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Book Review: The Library at Mount Char</title>
   <dc:creator>Lux Ferrata</dc:creator>
-  <link>https://luxferrata.org/posts/the_library_at_mount_char/</link>
+  <link>https://lux-ferrata.org/posts/the_library_at_mount_char/</link>
   <description><![CDATA[ 
 
 
@@ -78,14 +78,14 @@
 
  ]]></description>
   <category>Book Review</category>
-  <guid>https://luxferrata.org/posts/the_library_at_mount_char/</guid>
-  <pubDate>Wed, 25 Mar 2026 04:00:00 GMT</pubDate>
-  <media:content url="https://luxferrata.org/posts/the_library_at_mount_char/thumbnail.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://lux-ferrata.org/posts/the_library_at_mount_char/</guid>
+  <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://lux-ferrata.org/posts/the_library_at_mount_char/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Blogging for Fun and Profit</title>
   <dc:creator>Lux Ferrata</dc:creator>
-  <link>https://luxferrata.org/posts/blogging_for_fun_and_profit/</link>
+  <link>https://lux-ferrata.org/posts/blogging_for_fun_and_profit/</link>
   <description><![CDATA[ 
 
 
@@ -115,9 +115,9 @@
 
  ]]></description>
   <category>Writing</category>
-  <guid>https://luxferrata.org/posts/blogging_for_fun_and_profit/</guid>
-  <pubDate>Sun, 15 Mar 2026 04:00:00 GMT</pubDate>
-  <media:content url="https://luxferrata.org/posts/blogging_for_fun_and_profit/thumbnail.png" medium="image" type="image/png" height="96" width="144"/>
+  <guid>https://lux-ferrata.org/posts/blogging_for_fun_and_profit/</guid>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://lux-ferrata.org/posts/blogging_for_fun_and_profit/thumbnail.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>

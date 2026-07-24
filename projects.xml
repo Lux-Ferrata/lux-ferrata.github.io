@@ -6,10 +6,10 @@
       version="2.0">
 <channel>
 <title>Lux Ferrata</title>
-<link>https://luxferrata.org/projects.html</link>
-<atom:link href="https://luxferrata.org/projects.xml" rel="self" type="application/rss+xml"/>
+<link>https://lux-ferrata.org/projects.html</link>
+<atom:link href="https://lux-ferrata.org/projects.xml" rel="self" type="application/rss+xml"/>
 <description>Personal blog.</description>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Fri, 24 Jul 2026 01:46:58 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Fri, 24 Jul 2026 17:33:22 GMT</lastBuildDate>
 </channel>
 </rss>

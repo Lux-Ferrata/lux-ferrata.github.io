@@ -1,11 +1,7 @@
 [
   {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/book_review_a_memory_called_empire/index.html",
-      "/posts/the_library_at_mount_char/index.html",
-      "/posts/blogging_for_fun_and_profit/index.html"
-    ]
+    "listing": "/projects.html",
+    "items": []
   },
   {
     "listing": "/archive.html",
@@ -16,7 +12,11 @@
     ]
   },
   {
-    "listing": "/projects.html",
-    "items": []
+    "listing": "/blog.html",
+    "items": [
+      "/posts/book_review_a_memory_called_empire/index.html",
+      "/posts/the_library_at_mount_char/index.html",
+      "/posts/blogging_for_fun_and_profit/index.html"
+    ]
   }
 ]
