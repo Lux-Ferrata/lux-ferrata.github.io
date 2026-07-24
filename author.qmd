@@ -1,0 +1,16 @@
+---
+title: "About"
+image: Penrose_Valknut-3.svg
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/lux-ferrata
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+
+---
+
+Hi, I'm the author of this blog.

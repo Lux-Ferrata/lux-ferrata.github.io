@@ -1,0 +1,54 @@
+project:
+  type: website
+  resources:
+  - CNAME
+
+website:
+  title: "Lux Ferrata"
+  description: "Personal blog."
+  site-url: "https://luxferrata.org"
+  favicon: Penrose_Valknut-3.svg
+  search: true
+  open-graph:
+    image: Penrose_Valknut-3.svg
+  page-footer:
+    center: "© 2026 Lux Ferrata · Made with [Quarto](https://quarto.org) · [Content Policies](content-policies.qmd)"
+  navbar:
+    right:
+      - text: About
+        href: author.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Archive
+        href: archive.qmd
+      - icon: github
+        text: GitHub
+        href: https://github.com/lux-ferrata
+      - icon: rss
+        text: RSS
+        href: blog.xml
+
+format:
+  html:
+    theme: slate
+    html-math-method: mathjax
+    toc: true
+    toc-location: right
+    code-copy: true
+    code-fold: true
+    citations-hover: true
+
+comments:
+  giscus:
+    repo: "lux-ferrata/lux-ferrata.github.io"
+    repo-id: "REPLACE_WITH_REPO_ID"
+    category: "Announcements"
+    category-id: "REPLACE_WITH_CATEGORY_ID"
+    mapping: "url"
+    reactions-enabled: true
+    theme: preferred_color_scheme
+
+execute:
+  freeze: auto
