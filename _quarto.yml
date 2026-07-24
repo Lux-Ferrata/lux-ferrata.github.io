@@ -17,7 +17,7 @@ website:
     right:
       - text: About
         href: author.qmd
-      - text: Blog
+      - text: Posts
         href: blog.qmd
       - text: Projects
         href: projects.qmd
@@ -32,7 +32,9 @@ website:
 
 format:
   html:
-    theme: slate
+    theme:
+      light: flatly
+      dark: darkly
     html-math-method: mathjax
     toc: true
     toc-location: right
