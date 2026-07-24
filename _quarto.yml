@@ -35,6 +35,7 @@ format:
     theme:
       light: flatly
       dark: darkly
+    css: styles.css
     html-math-method: mathjax
     toc: true
     toc-location: right
@@ -53,9 +54,7 @@ comments:
     category: "Announcements"
     category-id: "DIC_kwDOThvy7s4DB12m"
     mapping: "url"
-    strict: false
     reactions-enabled: true
-    emit-metadata: true
     input-position: top
     theme: preferred_color_scheme
     language: en

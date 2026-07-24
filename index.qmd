@@ -13,6 +13,8 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com
+    - text: "ORCID"
+      href: https://orcid.org/0000-0000-0000-0000
 
 ---
 
