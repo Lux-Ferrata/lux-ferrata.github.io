@@ -33,7 +33,7 @@
             python3Packages.hy
 
             # Bash kernel
-            python3Packages.bash_kernel
+            python3Packages.bash-kernel
 
             # Julia kernel (scientific computing / physics)
             (julia.withPackages [ "IJulia" ])
