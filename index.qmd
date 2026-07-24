@@ -1,6 +1,6 @@
 ---
 title: "Lux Ferrata"
-subtitle: "Student, Artist, Programmer"
+subtitle: "Student, Artist, Raconteur"
 image: Penrose_Valknut-3.svg
 toc: false
 about:
