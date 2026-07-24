@@ -1,0 +1,32 @@
+---
+title: "Content Policies"
+toc: true
+---
+
+This page describes the standards and policies that govern content on this site.
+
+## Authorship
+
+All written content on this site is authored by me. No articles, posts, or essays are generated or ghost-written by AI language models. I may use AI tools for research assistance or to check my reasoning, but the words you read are mine.
+
+## Images
+
+Images fall into one of the following categories:
+
+- **Original work** — created by me. Free to use with attribution.
+- **Unsplash** — sourced from [Unsplash](https://unsplash.com) under the [Unsplash License](https://unsplash.com/license). Free to use without attribution, though I will credit the photographer where possible.
+- **Public domain** — images explicitly in the public domain or released under CC0.
+
+Where an image has a specific license or attribution requirement, it is noted in the post where it appears.
+
+If you believe an image has been used incorrectly, please open a GitHub Discussion.
+
+## Comments
+
+Comments are powered by [Giscus](https://giscus.app), which uses GitHub Discussions. A GitHub account is required to comment.
+
+I ask that discussions remain constructive and in good faith. I reserve the right to remove comments that are abusive, spam, or off-topic.
+
+## Corrections
+
+If you spot a factual error, please open a GitHub Discussion or contact me directly. I will correct errors and note the correction in the affected post.

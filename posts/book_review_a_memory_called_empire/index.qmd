@@ -1,0 +1,76 @@
+---
+title: "Book Review: A Memory Called Empire"
+description: "Book review of \"A Memory Called Empire\" by Arkady Martine."
+author: "Lux Ferrata"
+date: 2026-03-30
+categories: [Book Review]
+image: thumbnail.jpg
+draft: false
+---
+
+[Good Reads Link](https://www.goodreads.com/book/show/37794149-a-memory-called-empire)
+
+Note: Summary section is generally spoiler free, but beyond that will be
+a full discussion of my thoughts and reactions to the story. Please read
+at your own risk.
+
+---
+
+# Summary
+
+A Memory Called Empire is the first book in a series by an author I have
+not previously read. I enjoyed the book, and I think they did a good job
+balancing the need for a "completed story" within this book against
+the needs of world building for a larger series. By the end I still had
+a lot of questions about the world and things happening in it, without
+the feeling of a cliffhanger ending. I would describe this book as a
+solid character-driven sci-fi story.
+
+$\huge \vdash \rule[0.5ex]{6.5em}{1pt} \bullet \rule[0.5ex]{3.5em}{1pt} \dashv \text{ 6.5/10}$
+
+# --------- Spoiler Warning ---------
+
+# Full Review
+
+The story focuses on the experience of a newly appointed ambassador from
+a small nation traveling to the neighboring empire for the first time. I
+really enjoyed the author's usage of poetic / narrative self
+determinism as a defining characteristic of the empire. The idea that
+citizens of this empire sort of "self-select" into character roles
+previously defined in their societies' collective literature, and how
+this expectation to "follow the narrative" can become
+self-destructive. They also do a really good job illustrating how a
+society can build values around somewhat arbitrary things. In the case
+of Teixcalaan it's poetry. This is a perfect fit within the context of
+a society so focused on narrative beauty, but it's important to keep in
+mind that throughout all of this we are interacting with the
+Teixcalaanli nobility.
+
+The story does not really do much to address what life is like for the
+more ordinary citizen of Teixcalaan, and maybe it doesn't need to. But
+I think it's worth remembering as you read through this book that what
+we are seeing is not the "norm", but the "ideal". The Teixcalaan we
+see is the story that the empire tells itself: The idealized concept of
+what every Teixcalaanli "should be".
+
+The protagonist, ambassador Mahit does not fit easily into this
+Teixcalaanli narrative of self-determination and achievement. Like most
+of her people she has an "Imago machine". A brain implant: with what
+amounts to an AI built from the recorded thoughts of her predecessor.
+Unusually the goal of this implant is not to act as an embedded
+assistant, but to be gradually integrated into the "host" until they
+reach the point of being a single gestalt personality. For the
+ambassador that would only be a single generation, but that seems to be
+the exception rather than the rule. With some "Imago Lineages" going
+back 15 generations or more.
+
+The story spends a lot of time dealing with the nuance of what a device
+like that could mean for the definition of the self, how such a device
+could be misused, and how societal norms and expectations define our
+values around such things. To Mahit the idea of an Imago is not only
+"normal", but desirable: something she has dreamed of. While to the
+Teixcalaanli it is either repugnant, or a way to bypass the normal
+social order.
+
+Overall I thought the book discussed some really interesting ideas, and
+I am looking forward to reading the second.

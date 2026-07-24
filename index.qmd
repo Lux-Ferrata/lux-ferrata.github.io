@@ -1,0 +1,23 @@
+---
+title: "Lux Ferrata"
+subtitle: "Student, Artist, Programmer"
+image: Penrose_Valknut-3.svg
+toc: false
+about:
+  template: jolla
+  image-shape: rounded
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/lux-ferrata
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+
+---
+
+# Welcome!
+
+This is my personal blog.
+
+*See the [Content Policies](content-policies.qmd) page for information on image licensing, writing authorship, and comment guidelines.*

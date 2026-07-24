@@ -1,0 +1,9 @@
+/.quarto/
+**/*.quarto_ipynb
+_site/
+_freeze/
+site_libs/
+.direnv/
+*-listing.json
+*.feed-full-staged
+*.html

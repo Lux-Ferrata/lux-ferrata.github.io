@@ -1,0 +1,161 @@
+---
+title: "Post Title"
+description: "One or two sentence description shown in listings and link previews."
+author: "Lux Ferrata"
+date: 2026-01-01
+categories: [Category1, Category2]
+project: "project-slug"   # links post to projects/project-slug/index.qmd
+series:
+  name: "Series Name"
+  order: 1                # controls prev/next navigation order
+image: thumbnail.svg      # shown in blog listing cards
+draft: true               # set false to publish
+freeze: true              # never execute code cells in this template
+---
+
+# Introduction
+
+<!-- =========================================================
+     LINKS
+     ========================================================= -->
+
+## Linking
+
+Internal page: [About](../../author.qmd)
+
+Internal image (in this post's folder): ![Alt text](thumbnail.svg)
+
+Internal image (shared assets): ![Alt text](../../assets/image.svg)
+
+External link: [Quarto docs](https://quarto.org/docs/guide/)
+
+
+<!-- =========================================================
+     MATH
+     ========================================================= -->
+
+## Math
+
+Inline: $E = mc^2$
+
+Display:
+
+$$
+\int_0^\infty e^{-x} \, dx = 1
+$$
+
+Multi-line aligned:
+
+$$
+\begin{aligned}
+  \nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} \\
+  \nabla \times \mathbf{B} &= \mu_0 \mathbf{J} + \mu_0\varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}
+\end{aligned}
+$$
+
+
+<!-- =========================================================
+     CODE
+     ========================================================= -->
+
+## Code
+
+Static block (no execution):
+
+```python
+def hello(name: str) -> str:
+    return f"Hello, {name}"
+```
+
+```nix
+{ pkgs ? import <nixpkgs> {} }:
+pkgs.mkShell {
+  buildInputs = [ pkgs.quarto ];
+}
+```
+
+Executed Python cell (requires Jupyter kernel — set `freeze: false` in frontmatter to re-run):
+
+```{python}
+x = [1, 2, 3, 4, 5]
+print(sum(x))
+```
+
+Executed cell with plot:
+
+```{python}
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+ax.plot([1, 2, 3], [1, 4, 9])
+ax.set_title("Example Plot")
+plt.show()
+```
+
+Inline code result: The answer is `{python} 2 + 2`.
+
+
+<!-- =========================================================
+     CALLOUTS
+     ========================================================= -->
+
+## Callouts
+
+::: {.callout-note}
+Use for supplementary information.
+:::
+
+::: {.callout-warning}
+Use for things the reader should be careful about.
+:::
+
+::: {.callout-tip}
+Use for helpful suggestions.
+:::
+
+::: {.callout-important}
+Use sparingly for critical information.
+:::
+
+
+<!-- =========================================================
+     FOOTNOTES & CITATIONS
+     ========================================================= -->
+
+## Footnotes and Citations
+
+Footnote.[^1]
+
+[^1]: Footnote text goes here.
+
+<!-- For citations, add a bibliography file and reference it in frontmatter:
+     bibliography: references.bib
+     Then cite inline with [@key] or [-@key] for author-suppressed. -->
+
+
+<!-- =========================================================
+     MISC
+     ========================================================= -->
+
+## Miscellaneous
+
+Horizontal rule:
+
+---
+
+Block quote:
+
+> The question is not what you look at, but what you see.
+> — Thoreau
+
+Definition list:
+
+Term
+: Definition text here.
+
+Table:
+
+| Column A | Column B | Column C |
+|----------|----------|----------|
+| foo      | bar      | baz      |
+| 1        | 2        | 3        |
