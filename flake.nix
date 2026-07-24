@@ -19,7 +19,7 @@
             # Publishing engine
             quarto
 
-            # Required for executing Jupyter notebooks and Python code blocks!
+            # Python kernel + scientific stack
             python3
             python3Packages.jupyter
             python3Packages.matplotlib
@@ -28,12 +28,22 @@
             python3Packages.pandas
             python3Packages.seaborn
             python3Packages.sympy
+
+            # Hy (Lisp dialect on Python — uses the Python kernel)
+            python3Packages.hy
+
+            # Bash kernel
+            python3Packages.bash_kernel
+
+            # Julia kernel (scientific computing / physics)
+            (julia.withPackages [ "IJulia" ])
           ];
 
           shellHook = ''
             echo "=========================================="
             echo "Quarto version: $(quarto --version)"
             echo "Python version: $(python3 --version)"
+            echo "Julia version:  $(julia --version)"
             echo "=========================================="
             echo "Run 'quarto preview' to start the live server."
             echo "=========================================="
