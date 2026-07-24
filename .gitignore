@@ -1,7 +1,6 @@
 /.quarto/
 **/*.quarto_ipynb
 _site/
-_freeze/
 site_libs/
 .direnv/
 *-listing.json
