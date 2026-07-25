@@ -16,3 +16,5 @@ about:
 ---
 
 Hi, I'm the author of this blog.
+
+*See the [Content Policies](content-policies.qmd) page for information on image licensing, writing authorship, and comment guidelines.*
