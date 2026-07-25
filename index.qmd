@@ -1,25 +1,13 @@
 ---
-title: "Lux Ferrata"
-subtitle: "Student, Artist, Raconteur"
-image: Penrose_Valknut-3.svg
-toc: false
-about:
-  template: jolla
-  image-shape: rounded
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/lux-ferrata
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - text: "ORCID"
-      href: https://orcid.org/0000-0000-0000-0000
-
+listing:
+  contents: posts
+  feed: true
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [image, date, title, reading-time, description, categories]
+page-layout: full
+title-block-banner: false
 ---
-
-# Welcome!
-
-This is my personal blog.
-
-*See the [Content Policies](content-policies.qmd) page for information on image licensing, writing authorship, and comment guidelines.*

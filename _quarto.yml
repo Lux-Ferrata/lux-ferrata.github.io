@@ -18,7 +18,7 @@ website:
       - text: About
         href: author.qmd
       - text: Posts
-        href: blog.qmd
+        href: index.qmd
       - text: Projects
         href: projects.qmd
       - text: Archive
@@ -28,7 +28,7 @@ website:
         href: https://github.com/lux-ferrata
       - icon: rss
         text: RSS
-        href: blog.xml
+        href: index.xml
 
 format:
   html:
