@@ -3,11 +3,9 @@ title: "Content Policies"
 toc: true
 ---
 
-This page describes the standards and policies that govern content on this site.
-
 ## Authorship
 
-All written content on this site is authored by me. No articles, posts, or essays are generated or ghost-written by AI language models. I may use AI tools for research assistance or to check my reasoning, but the words you read are mine.
+All content on this site is written by me. No articles, posts, or essays are generated or ghost-written by AI language models. I do use AI tools for research assistance, as part of the project discussed by a post, and spelling and grammar checking.
 
 ## Images
 
