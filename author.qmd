@@ -17,6 +17,6 @@ about:
 
 Hi, I'm Kevin the author of this blog.
 
-I am currently studying physics and Pima Community College. This blog is where I share my personal project logs, essays on the things I am studying, and opinions on various subjects.
+I am currently studying physics at Pima Community College. This blog is where I share project logs, essays, and opinions on various subjects.
 
 *See the [Content Policies](content-policies.qmd) page for information on image licensing, writing authorship, and comment guidelines.*
