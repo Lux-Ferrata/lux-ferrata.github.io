@@ -845,6 +845,31 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </footer>
 <script data-goatcounter="https://xin-ferrata.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script>
+  // Visible per-page view counter. Reads the count for the current
+  // path from GoatCounter's counter endpoint and drops it into the
+  // title block. Requires "Allow adding visitor counts to your
+  // website" to be enabled in the GoatCounter site settings.
+  (function () {
+    var path = location.pathname.replace(/\/index\.html$/, "/");
+    if (path.length > 1) path = path.replace(/\/$/, "");
+    var url = "https://xin-ferrata.goatcounter.com/counter/" +
+              encodeURIComponent(path) + ".json";
+    fetch(url)
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d) return;
+        var host = document.querySelector("#title-block-header .quarto-title-meta");
+        if (!host) host = document.querySelector("#title-block-header");
+        if (!host) return;
+        var el = document.createElement("div");
+        el.className = "goatcounter-views";
+        el.textContent = d.count_unique + " views";
+        host.appendChild(el);
+      })
+      .catch(function () {});
+  })();
+</script>
 
 
 
