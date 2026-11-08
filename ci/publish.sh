@@ -44,7 +44,10 @@ else
 fi
 
 log "render ${SHA:0:12}"
-nix develop --command quarto render
+# Quarto's Sass cache (a Deno KV / SQLite file) can't be opened under the runner's
+# ~/.cache ("unable to open database file"), so Quarto gets a per-run cache in $WORK.
+# Set inside the shell only: nix itself keeps using ~/.cache/nix.
+nix develop --command env XDG_CACHE_HOME="$WORK/cache" quarto render
 
 # never deploy a site that's missing its pages
 pages=$(find _site -name '*.html' | wc -l)
