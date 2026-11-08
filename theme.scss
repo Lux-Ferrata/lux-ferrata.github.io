@@ -10,9 +10,12 @@ $font-family-sans-serif: "Atkinson Hyperlegible Next", system-ui, -apple-system,
 $font-family-monospace: "Atkinson Hyperlegible Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 $headings-font-family: $font-family-sans-serif;
 
-// Navbar: text sized to fill the bar
+// Navbar: larger text, less padding, so the text fills the bar
 $navbar-brand-font-size: 1.75rem;
 $nav-link-font-size: 1.25rem;
+$navbar-padding-y: 0.25rem;      // bootswatch: 1rem
+$navbar-brand-padding-y: 0;
+$nav-link-padding-y: 0.25rem;    // bootstrap: 0.5rem
 
 /*-- scss:rules --*/
 
