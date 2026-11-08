@@ -60,9 +60,9 @@ series:
 ---
 title: "Project Title"
 listing:
-  contents: ../../posts
+  contents: "../../posts/*/index.qmd"   # a bare ../../posts matches nothing
   include:
-    project: ["my-project"]
+    project: "my-project"
   sort: "date desc"
   type: default
   fields: [image, date, title, reading-time, description]

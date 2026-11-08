@@ -1,0 +1,13 @@
+---
+title: "Probabilistic Computation"
+listing:
+  contents: "../../posts/*/index.qmd"
+  include:
+    project: "probabilistic-computation"
+  feed: true
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [image, date, title, reading-time, description, categories]
+page-layout: full
+---

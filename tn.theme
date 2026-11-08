@@ -1,0 +1,45 @@
+{
+    "_comment": "Technonomicon (tn) code theme, from Technonomicon Modules/Core/_palette.nix. Alabaster-style: comments and operators yellow, strings green, constants red, definitions blue, keywords and everything else plain, no bold or italic. Update by hand if the palette changes.",
+    "text-color": "#E8E6E3",
+    "background-color": "#252728",
+    "line-number-color": "#848E99",
+    "line-number-background-color": "#252728",
+    "text-styles": {
+        "Normal":         { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "Keyword":        { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "ControlFlow":    { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "DataType":       { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "BuiltIn":        { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "Variable":       { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "Import":         { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "Extension":      { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "Preprocessor":   { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "Attribute":      { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "Other":          { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+        "RegionMarker":   { "text-color": "#E8E6E3", "bold": false, "italic": false, "underline": false },
+
+        "Comment":        { "text-color": "#EDCB6C", "bold": false, "italic": false, "underline": false },
+        "Documentation":  { "text-color": "#EDCB6C", "bold": false, "italic": false, "underline": false },
+        "Annotation":     { "text-color": "#EDCB6C", "bold": false, "italic": false, "underline": false },
+        "CommentVar":     { "text-color": "#EDCB6C", "bold": false, "italic": false, "underline": false },
+        "Operator":       { "text-color": "#EDCB6C", "bold": false, "italic": false, "underline": false },
+
+        "String":         { "text-color": "#8BCF74", "bold": false, "italic": false, "underline": false },
+        "VerbatimString": { "text-color": "#8BCF74", "bold": false, "italic": false, "underline": false },
+        "SpecialString":  { "text-color": "#8BCF74", "bold": false, "italic": false, "underline": false },
+        "Char":           { "text-color": "#8BCF74", "bold": false, "italic": false, "underline": false },
+        "SpecialChar":    { "text-color": "#8BCF74", "bold": false, "italic": false, "underline": false },
+
+        "DecVal":         { "text-color": "#FC4F4B", "bold": false, "italic": false, "underline": false },
+        "BaseN":          { "text-color": "#FC4F4B", "bold": false, "italic": false, "underline": false },
+        "Float":          { "text-color": "#FC4F4B", "bold": false, "italic": false, "underline": false },
+        "Constant":       { "text-color": "#FC4F4B", "bold": false, "italic": false, "underline": false },
+
+        "Function":       { "text-color": "#6EB0F4", "bold": false, "italic": false, "underline": false },
+
+        "Information":    { "text-color": "#5EDBE2", "bold": false, "italic": false, "underline": false },
+        "Warning":        { "text-color": "#FF8D3E", "bold": false, "italic": false, "underline": false },
+        "Alert":          { "text-color": "#FC4F4B", "bold": false, "italic": false, "underline": false },
+        "Error":          { "text-color": "#FC4F4B", "bold": false, "italic": false, "underline": false }
+    }
+}

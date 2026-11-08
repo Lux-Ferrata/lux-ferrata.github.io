@@ -43,6 +43,7 @@ format:
     toc: true
     toc-location: right
     code-copy: true
+    highlight-style: tn.theme
     code-fold: true
     citations-hover: true
     include-after-body:
