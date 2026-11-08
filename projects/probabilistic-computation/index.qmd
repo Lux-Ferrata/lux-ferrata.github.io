@@ -1,6 +1,6 @@
 ---
 title: "Probabilistic Computation"
-description: "Ising models, Boltzmann machines, and building a probabilistic computer on an FPAA (field-programmable analog array)."
+description: "Ising models, Boltzmann machines, and building a probabilistic computer on a field-programmable analog array."
 image: ising-lattice.png
 listing:
   contents: "../../posts/*/index.qmd"   # a bare ../../posts matches nothing from here
