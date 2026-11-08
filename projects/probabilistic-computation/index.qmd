@@ -1,7 +1,9 @@
 ---
 title: "Probabilistic Computation"
+description: "Personal projects focused on Ising models, Boltzmann machines, and implementing a probabilistic computer on an FPAA."
+image: ising-lattice.png
 listing:
-  contents: "../../posts/*/index.qmd"
+  contents: "../../posts/*/index.qmd"   # a bare ../../posts matches nothing from here
   include:
     project: "probabilistic-computation"
   feed: true

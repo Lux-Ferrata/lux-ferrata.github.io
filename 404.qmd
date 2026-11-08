@@ -1,0 +1,10 @@
+---
+title: "Page not found"
+toc: false
+---
+
+::: {.text-center}
+![](/Penrose_Valknut-3.svg){width=180px fig-alt="The Penrose valknut logo"}
+
+There's nothing at this address. Try the [home page](/index.qmd), or search with the magnifier in the top bar.
+:::

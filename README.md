@@ -20,7 +20,7 @@ Code cells execute in CI on Akmon; `_freeze/` is a cache and is not committed.
 
 ## Writing a Post
 
-1. Copy `posts/template/` to a new folder: `posts/my-post-title/`
+1. Copy `_templates/post/` to a new folder: `posts/my-post-title/`
 2. Edit `index.qmd` — fill in the frontmatter and write
 3. Add a `thumbnail.svg` or `.png` for the listing card
 4. Set `draft: false` when ready to publish
@@ -43,13 +43,7 @@ To assign a post to a project, add:
 project: "project-slug"
 ```
 
-For sequential series with prev/next navigation:
-
-```yaml
-series:
-  name: "Series Name"
-  order: 1
-```
+A post with `project:` also gets "previous / next" links through that project's posts, in date order.
 
 ## Adding a Project
 

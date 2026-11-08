@@ -4,13 +4,10 @@ description: "One or two sentence description shown in listings and link preview
 author: "Lux Ferrata"
 date: 2026-01-01
 categories: [Category1, Category2]
-project: "project-slug"   # links post to projects/project-slug/index.qmd
-series:
-  name: "Series Name"
-  order: 1                # controls prev/next navigation order
-image: thumbnail.svg      # shown in blog listing cards
-draft: true               # set false to publish
-freeze: true              # never execute code cells in this template
+project: "project-slug"   # optional: lists the post on projects/project-slug/ and adds
+                          # prev/next links through that project's posts, ordered by date
+image: thumbnail.svg      # shown in listing cards and link previews
+draft: true               # set false (or delete) to publish
 ---
 
 # Introduction
