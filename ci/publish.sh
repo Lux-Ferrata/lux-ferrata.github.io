@@ -23,7 +23,16 @@ WORK=$(mktemp -d)
 trap 'rm -rf "$WORK"' EXIT
 
 log()  { printf '\n==== %s ====\n' "$*"; }
+die()  { echo "ABORT: $*" >&2; exit 1; }
 push() { if [ "$MODE" = live ]; then git "$@"; else echo "[dry-run] git $*"; fi; }
+
+# Quarto skips every input file when the project's path has a dot-directory in it,
+# and the runner's workspace lives under ~/.cache/act/...: rendered there, the site
+# comes out empty (only robots.txt and sitemap.xml). So work in a clone under $WORK.
+log "clone ${SHA:0:12} to $WORK/src"
+git clone -q --no-checkout "$PWD" "$WORK/src"
+git -C "$WORK/src" checkout -q --detach "$SHA"
+cd "$WORK/src"
 
 log "restore freeze cache"
 rm -rf _freeze
@@ -36,6 +45,12 @@ fi
 
 log "render ${SHA:0:12}"
 nix develop --command quarto render
+
+# never deploy a site that's missing its pages
+pages=$(find _site -name '*.html' | wc -l)
+echo "$pages HTML pages rendered"
+[ -f _site/index.html ] && [ -f _site/CNAME ] && [ "$pages" -ge 5 ] \
+  || die "_site looks incomplete (index.html, CNAME, >= 5 pages expected); not deploying"
 
 log "save freeze cache"
 mkdir -p "$(dirname "$CACHE")"
