@@ -1,12 +1,16 @@
 ---
 title: "Projects"
 listing:
+  id: project-listing
   contents: projects
   sort: "title"
   type: default
   fields: [image, title, description]
 page-layout: full
 ---
+
+::: {#project-listing}
+:::
 
 ::: {.small .text-muted}
 Image credit: [“2D ising model on lattice”](https://commons.wikimedia.org/wiki/File:2D_ising_model_on_lattice.svg) by Ta2o, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), via Wikimedia Commons.
