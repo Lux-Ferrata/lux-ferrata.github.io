@@ -9,3 +9,17 @@ $web-font-path: false;
 $font-family-sans-serif: "Atkinson Hyperlegible Next", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 $font-family-monospace: "Atkinson Hyperlegible Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 $headings-font-family: $font-family-sans-serif;
+
+// Navbar: text sized to fill the bar
+$navbar-brand-font-size: 1.75rem;
+$nav-link-font-size: 1.25rem;
+
+/*-- scss:rules --*/
+
+// The colour-scheme toggle is a 1rem background image; size it with the links.
+.navbar .quarto-color-scheme-toggle .bi::before {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-size: 1.6rem 1.6rem;
+  vertical-align: -0.35rem;
+}
