@@ -14,8 +14,9 @@ Images fall into one of the following categories:
 - **Original work** — created by me. Free to use with attribution.
 - **Unsplash** — sourced from [Unsplash](https://unsplash.com) under the [Unsplash License](https://unsplash.com/license). Free to use without attribution, though I will credit the photographer where possible.
 - **Public domain** — images explicitly in the public domain or released under CC0.
+- **Creative Commons** — used under the license its creator chose (for example CC BY 4.0), with the credit that license requires.
 
-Where an image has a specific license or attribution requirement, it is noted in the post where it appears.
+Where an image has a specific license or attribution requirement, it is noted on the page where it appears.
 
 If you believe an image has been used incorrectly, please open a GitHub Discussion.
 
