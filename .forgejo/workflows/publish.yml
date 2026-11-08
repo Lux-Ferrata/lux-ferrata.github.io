@@ -1,0 +1,31 @@
+# Render the site on Akmon (full dev shell, freeze cache on the runner) and publish it
+# to GitHub Pages. Logic lives in ci/publish.sh.
+name: publish
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run renders and builds the gh-pages commit but pushes nothing"
+        type: choice
+        options: [dry-run, live]
+        default: dry-run
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: nixos
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # main is pushed to GitHub, which needs the history
+      - name: publish
+        run: bash ci/publish.sh   # workspace may be noexec under the runner sandbox
+        env:
+          MODE: ${{ inputs.mode || 'live' }}   # push events have no inputs -> live
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}

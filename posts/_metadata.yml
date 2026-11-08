@@ -1,6 +1,6 @@
 # options specified here will apply to all posts in this folder
 
-freeze: true
+# freeze: auto is inherited from _quarto.yml: a post re-executes only when its source changes
 
 title-block-banner: false
 

@@ -2,6 +2,7 @@ project:
   type: website
   resources:
   - CNAME
+  - fonts/
 
 website:
   title: "Lux Ferrata"
@@ -12,7 +13,7 @@ website:
   open-graph:
     image: Penrose_Valknut-3.svg
   page-footer:
-    center: "© 2026 Lux Ferrata · Made with [Quarto](https://quarto.org) · [Content Policies](content-policies.qmd)"
+    center: "© 2026 Lux Ferrata · Made with [Quarto](https://quarto.org) · [Content Policies](/content-policies.qmd)"
   navbar:
     right:
       - text: About
@@ -33,9 +34,11 @@ website:
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
-    css: styles.css
+      light: [flatly, theme.scss]
+      dark: [darkly, theme.scss]
+    css:
+      - fonts/fonts.css
+      - styles.css
     html-math-method: mathjax
     toc: true
     toc-location: right

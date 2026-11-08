@@ -1,8 +1,19 @@
+# Quarto
 /.quarto/
-**/*.quarto_ipynb
-_site/
+/_site/
+# execution cache: CI keeps its own on Akmon (ci/publish.sh), nothing is committed
+/_freeze/
 site_libs/
-.direnv/
+**/*.quarto_ipynb
 *-listing.json
 *.feed-full-staged
-*.html
+
+# Nix / direnv
+/.direnv/
+result
+
+# Python
+__pycache__/
+
+# Manim writes media/ into the directory it runs in
+media/

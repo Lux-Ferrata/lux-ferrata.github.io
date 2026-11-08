@@ -1,6 +1,6 @@
 # Lux Ferrata
 
-Source for [luxferrata.org](https://luxferrata.org) — a personal blog built with [Quarto](https://quarto.org) and deployed to GitHub Pages.
+Source for [lux-ferrata.org](https://lux-ferrata.org) — a personal blog built with [Quarto](https://quarto.org) and deployed to GitHub Pages.
 
 ## Local Development
 
@@ -14,7 +14,9 @@ nix develop
 quarto preview
 ```
 
-The shell provides Quarto, Python (with scientific stack), Hy, Bash kernel, and Julia with IJulia.
+The shell provides Quarto and Jupyter kernels for Python 3.14 (scientific stack, PyTorch, JAX, QuTiP, Qiskit, Plotly, Manim), Julia 1.12 and Bash. nixpkgs is pinned to the same revision as the p-bit project.
+
+Code cells execute in CI on Akmon; `_freeze/` is a cache and is not committed.
 
 ## Writing a Post
 
@@ -71,4 +73,4 @@ listing:
 
 ## Deployment
 
-Pushing to `main` triggers the GitHub Actions workflow which renders and deploys to the `gh-pages` branch. No manual steps required.
+The primary remote is Forgejo on Akmon. Pushing to `main` there runs `.forgejo/workflows/publish.yml` → `ci/publish.sh`, which renders the site in the flake's dev shell (executing changed posts, with a freeze cache kept on the runner) and force-pushes the result to the `gh-pages` branch on GitHub, which GitHub Pages serves. `main` is mirrored to GitHub by the same job.
