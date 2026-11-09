@@ -33,3 +33,16 @@ a.about-link[href*="orcid.org"]::before {
   font-size: 0.875rem;
   opacity: 0.7;
 }
+
+/* Project pages: the project image as a hero under the title, its credit just below */
+img.project-hero {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 1.5rem auto 0.25rem;
+}
+.project-hero-credit {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
