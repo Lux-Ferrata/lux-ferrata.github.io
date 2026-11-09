@@ -1,0 +1,247 @@
+/* quarto syntax highlight colors */
+:root {
+  --quarto-hl-kw-color: #E8E6E3;
+  --quarto-hl-cf-color: #E8E6E3;
+  --quarto-hl-dt-color: #E8E6E3;
+  --quarto-hl-bu-color: #E8E6E3;
+  --quarto-hl-va-color: #E8E6E3;
+  --quarto-hl-im-color: #E8E6E3;
+  --quarto-hl-ex-color: #E8E6E3;
+  --quarto-hl-pp-color: #E8E6E3;
+  --quarto-hl-at-color: #E8E6E3;
+  --quarto-hl-ot-color: #E8E6E3;
+  --quarto-hl-re-color: #E8E6E3;
+  --quarto-hl-co-color: #EDCB6C;
+  --quarto-hl-do-color: #EDCB6C;
+  --quarto-hl-an-color: #EDCB6C;
+  --quarto-hl-cv-color: #EDCB6C;
+  --quarto-hl-op-color: #EDCB6C;
+  --quarto-hl-st-color: #8BCF74;
+  --quarto-hl-vs-color: #8BCF74;
+  --quarto-hl-ss-color: #8BCF74;
+  --quarto-hl-ch-color: #8BCF74;
+  --quarto-hl-sc-color: #8BCF74;
+  --quarto-hl-dv-color: #FC4F4B;
+  --quarto-hl-bn-color: #FC4F4B;
+  --quarto-hl-fl-color: #FC4F4B;
+  --quarto-hl-cn-color: #FC4F4B;
+  --quarto-hl-fu-color: #6EB0F4;
+  --quarto-hl-in-color: #5EDBE2;
+  --quarto-hl-wa-color: #FF8D3E;
+  --quarto-hl-al-color: #FC4F4B;
+  --quarto-hl-er-color: #FC4F4B;
+}
+
+/* other quarto variables */
+:root {
+  --quarto-font-monospace: "Atkinson Hyperlegible Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* syntax highlight based on Pandoc's rules */
+pre > code.sourceCode > span {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+code.sourceCode > span {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+div.sourceCode,
+div.sourceCode pre.sourceCode {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* Normal */
+code span {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* Alert */
+code span.al {
+  color: #FC4F4B;
+  font-style: inherit;
+}
+
+/* Annotation */
+code span.an {
+  color: #EDCB6C;
+  font-style: inherit;
+}
+
+/* Attribute */
+code span.at {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* BaseN */
+code span.bn {
+  color: #FC4F4B;
+  font-style: inherit;
+}
+
+/* BuiltIn */
+code span.bu {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* ControlFlow */
+code span.cf {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* Char */
+code span.ch {
+  color: #8BCF74;
+  font-style: inherit;
+}
+
+/* Constant */
+code span.cn {
+  color: #FC4F4B;
+  font-style: inherit;
+}
+
+/* Comment */
+code span.co {
+  color: #EDCB6C;
+  font-style: inherit;
+}
+
+/* CommentVar */
+code span.cv {
+  color: #EDCB6C;
+  font-style: inherit;
+}
+
+/* Documentation */
+code span.do {
+  color: #EDCB6C;
+  font-style: inherit;
+}
+
+/* DataType */
+code span.dt {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* DecVal */
+code span.dv {
+  color: #FC4F4B;
+  font-style: inherit;
+}
+
+/* Error */
+code span.er {
+  color: #FC4F4B;
+  font-style: inherit;
+}
+
+/* Extension */
+code span.ex {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* Float */
+code span.fl {
+  color: #FC4F4B;
+  font-style: inherit;
+}
+
+/* Function */
+code span.fu {
+  color: #6EB0F4;
+  font-style: inherit;
+}
+
+/* Import */
+code span.im {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* Information */
+code span.in {
+  color: #5EDBE2;
+  font-style: inherit;
+}
+
+/* Keyword */
+code span.kw {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* Operator */
+code span.op {
+  color: #EDCB6C;
+  font-style: inherit;
+}
+
+/* Other */
+code span.ot {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* Preprocessor */
+code span.pp {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* RegionMarker */
+code span.re {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* SpecialChar */
+code span.sc {
+  color: #8BCF74;
+  font-style: inherit;
+}
+
+/* SpecialString */
+code span.ss {
+  color: #8BCF74;
+  font-style: inherit;
+}
+
+/* String */
+code span.st {
+  color: #8BCF74;
+  font-style: inherit;
+}
+
+/* Variable */
+code span.va {
+  color: #E8E6E3;
+  font-style: inherit;
+}
+
+/* VerbatimString */
+code span.vs {
+  color: #8BCF74;
+  font-style: inherit;
+}
+
+/* Warning */
+code span.wa {
+  color: #FF8D3E;
+  font-style: inherit;
+}
+
+.prevent-inlining {
+  content: "</";
+}
+
+/*# sourceMappingURL=0a4c3fec23e20b4d339bca930564a6f0.css.map */
