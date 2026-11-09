@@ -1,7 +1,7 @@
 ---
 title: "Book Review: The Library at Mount Char"
 description: "Book review of \"The Library at Mount Char\" by Scott Hawkins."
-author: "Lux Ferrata"
+author: "Kevin Fanning"
 date: 2026-03-25
 categories: [Book Review]
 image: thumbnail.jpg

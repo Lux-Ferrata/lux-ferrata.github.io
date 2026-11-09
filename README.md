@@ -30,7 +30,7 @@ Code cells execute in CI on Akmon; `_freeze/` is a cache and is not committed.
 ```yaml
 title: "Post Title"
 description: "One sentence for listings and link previews."
-author: "Lux Ferrata"
+author: "Kevin Fanning"
 date: 2026-01-01
 categories: [Category]
 image: thumbnail.png

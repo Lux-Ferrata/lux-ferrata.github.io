@@ -1,7 +1,7 @@
 ---
 title: "Post Title"
 description: "One or two sentence description shown in listings and link previews."
-author: "Lux Ferrata"
+author: "Kevin Fanning"
 date: 2026-01-01
 categories: [Category1, Category2]
 project: "project-slug"   # optional: lists the post on projects/project-slug/ and adds

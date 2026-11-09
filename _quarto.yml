@@ -18,7 +18,7 @@ website:
     card-style: summary_large_image
     image: og-image.png
   page-footer:
-    center: "© 2026 Lux Ferrata · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Made with [Quarto](https://quarto.org) · [Content Policies](/content-policies.qmd)"
+    center: "© 2026 Kevin Fanning · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Made with [Quarto](https://quarto.org) · [Content Policies](/content-policies.qmd)"
   navbar:
     right:
       - text: About

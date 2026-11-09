@@ -1,7 +1,7 @@
 ---
 title: "Book Review: A Memory Called Empire"
 description: "Book review of \"A Memory Called Empire\" by Arkady Martine."
-author: "Lux Ferrata"
+author: "Kevin Fanning"
 date: 2026-03-30
 categories: [Book Review]
 image: thumbnail.jpg
