@@ -3,6 +3,7 @@ title: "Probabilistic Computation"
 description: "Ising models, Boltzmann machines, and building a probabilistic computer on a field-programmable analog array."
 image: ising-lattice.png
 listing:
+  id: project-posts
   contents: "../../posts/*/index.qmd"   # a bare ../../posts matches nothing from here
   include:
     project: "probabilistic-computation"
@@ -13,3 +14,10 @@ listing:
   fields: [image, date, title, reading-time, description, categories]
 page-layout: full
 ---
+
+::: {#project-posts}
+:::
+
+::: {.small .text-muted}
+Project image: [“2D ising model on lattice”](https://commons.wikimedia.org/wiki/File:2D_ising_model_on_lattice.svg) by Ta2o, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), via Wikimedia Commons.
+:::
