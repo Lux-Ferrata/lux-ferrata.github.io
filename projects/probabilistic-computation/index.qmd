@@ -1,6 +1,6 @@
 ---
 title: "Probabilistic Computation"
-description: "Ising models, Boltzmann machines, and building a probabilistic computer on a field-programmable analog array."
+description: "Ising models, Boltzmann machines, and building a probabilistic computer."
 image: ising-lattice.png   # card on the Projects page and link previews (PNG: previews take no SVG)
 image-alt: "Diagram of a 2D Ising model: a square lattice with a spin at every site, drawn as an arrow pointing up or down."
 listing:
