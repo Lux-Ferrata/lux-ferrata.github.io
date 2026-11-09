@@ -8,7 +8,7 @@ project:
 
 website:
   title: "Lux Ferrata"
-  description: "Personal blog."
+  description: "Personal Science and Technology Blog."
   site-url: "https://lux-ferrata.org"
   favicon: Penrose_Valknut-3.svg
   search: true

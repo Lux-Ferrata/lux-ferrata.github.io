@@ -15,6 +15,6 @@ about:
 
 Hi, I'm Kevin Fanning, the author of this blog.
 
-I am currently studying physics at Pima Community College. This blog is where I share project logs, essays, and opinions on various subjects.
+I am currently studying science at Pima Community College. This blog is where I share project logs, essays, and opinions on various subjects.
 
 *See the [Content Policies](content-policies.qmd) page for information on image licensing, writing authorship, and comment guidelines.*
