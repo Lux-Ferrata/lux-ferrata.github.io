@@ -34,6 +34,7 @@ author: "Lux Ferrata"
 date: 2026-01-01
 categories: [Category]
 image: thumbnail.png
+image-alt: "What the image shows"   # plain text; a render warns if missing
 draft: true
 ```
 

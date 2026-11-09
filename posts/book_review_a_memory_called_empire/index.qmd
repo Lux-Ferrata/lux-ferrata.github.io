@@ -5,6 +5,7 @@ author: "Lux Ferrata"
 date: 2026-03-30
 categories: [Book Review]
 image: thumbnail.jpg
+image-alt: "Cover of A Memory Called Empire by Arkady Martine"
 draft: false
 ---
 

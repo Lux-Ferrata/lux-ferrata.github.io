@@ -7,6 +7,7 @@ categories: [Category1, Category2]
 project: "project-slug"   # optional: lists the post on projects/project-slug/ and adds
                           # prev/next links through that project's posts, ordered by date
 image: thumbnail.svg      # shown in listing cards and link previews
+image-alt: "What the image shows, in one short sentence"   # plain text (no Markdown); read by screen readers
 draft: true               # set false (or delete) to publish
 ---
 

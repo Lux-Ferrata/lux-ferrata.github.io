@@ -4,6 +4,7 @@ project:
   - CNAME
   - fonts/
   - og-image.png
+  - apple-touch-icon.png
 
 website:
   title: "Lux Ferrata"
@@ -17,7 +18,7 @@ website:
     card-style: summary_large_image
     image: og-image.png
   page-footer:
-    center: "© 2026 Lux Ferrata · Made with [Quarto](https://quarto.org) · [Content Policies](/content-policies.qmd)"
+    center: "© 2026 Lux Ferrata · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Made with [Quarto](https://quarto.org) · [Content Policies](/content-policies.qmd)"
   navbar:
     right:
       - text: About
@@ -40,6 +41,7 @@ format:
     theme:
       light: [flatly, theme.scss]
       dark: [darkly, theme.scss]
+    respect-user-color-scheme: true   # open in the reader's light/dark preference
     css:
       - fonts/fonts.css
       - styles.css
@@ -50,6 +52,9 @@ format:
     highlight-style: tn.theme
     code-fold: true
     citations-hover: true
+    include-in-header:
+      text: |
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     include-after-body:
       text: |
         <script data-goatcounter="https://xin-ferrata.goatcounter.com/count"
@@ -60,3 +65,4 @@ execute:
 
 filters:
   - filters/project-nav.lua
+  - filters/alt-text.lua

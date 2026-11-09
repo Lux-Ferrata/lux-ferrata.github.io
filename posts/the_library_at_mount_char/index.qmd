@@ -5,6 +5,7 @@ author: "Lux Ferrata"
 date: 2026-03-25
 categories: [Book Review]
 image: thumbnail.jpg
+image-alt: "Cover of The Library at Mount Char by Scott Hawkins"
 draft: false
 ---
 

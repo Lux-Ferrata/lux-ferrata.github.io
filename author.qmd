@@ -7,11 +7,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/lux-ferrata
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - text: "ORCID"
-      href: https://orcid.org/0000-0000-0000-0000
+    - icon: envelope
+      text: Email
+      href: mailto:blog@lux-ferrata.org
 
 ---
 

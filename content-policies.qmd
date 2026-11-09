@@ -7,6 +7,10 @@ toc: true
 
 All content on this site is written by me. No articles, posts, or essays are generated or ghost-written by AI language models. I do use AI tools for research assistance, as part of the project discussed by a post, and spelling and grammar checking.
 
+## License
+
+Unless noted otherwise, the writing and original images on this site are licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/): you may share and adapt them, including commercially, as long as you credit me.
+
 ## Images
 
 Images fall into one of the following categories:
@@ -15,10 +19,11 @@ Images fall into one of the following categories:
 - **Unsplash** — sourced from [Unsplash](https://unsplash.com) under the [Unsplash License](https://unsplash.com/license). Free to use without attribution, though I will credit the photographer where possible.
 - **Public domain** — images explicitly in the public domain or released under CC0.
 - **Creative Commons** — used under the license its creator chose (for example CC BY 4.0), with the credit that license requires.
+- **Book covers and similar material** — copyrighted by their publishers and shown in reviews under fair use. They are not covered by this site's license.
 
 Where an image has a specific license or attribution requirement, it is noted on the page where it appears.
 
-If you believe an image has been used incorrectly, please open a GitHub Discussion.
+If you believe an image has been used incorrectly, please open a GitHub Discussion or email [blog@lux-ferrata.org](mailto:blog@lux-ferrata.org).
 
 ## Comments
 
@@ -26,6 +31,10 @@ Comments are powered by [Giscus](https://giscus.app), which uses GitHub Discussi
 
 I ask that discussions remain constructive and in good faith. I reserve the right to remove comments that are abusive, spam, or off-topic.
 
+## Privacy
+
+Page views are counted with [GoatCounter](https://www.goatcounter.com), which sets no cookies and doesn't track individual visitors. Comments load [Giscus](https://giscus.app) from GitHub, but only on post pages; GitHub's privacy policy applies there.
+
 ## Corrections
 
-If you spot a factual error, please open a GitHub Discussion or contact me directly. I will correct errors and note the correction in the affected post.
+If you spot a factual error, please open a GitHub Discussion or email [blog@lux-ferrata.org](mailto:blog@lux-ferrata.org). I will correct errors and note the correction in the affected post.
