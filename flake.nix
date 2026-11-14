@@ -54,6 +54,35 @@
           ]
         );
 
+        # PyScript (Python in the reader's browser) for interactive posts, served from the
+        # site itself rather than a CDN, like the fonts: the official offline bundle
+        # (PyScript core, Pyodide = Python 3.14, MicroPython) plus the Pyodide wheels in
+        # _scripts/pyodide-packages.nix (the science stack and its dependencies, ~41 MB,
+        # pinned by the sha256 in Pyodide's lock file; regenerate it with
+        # _scripts/pyodide-packages.py). `_scripts/pyscript.sh` (Quarto post-render)
+        # copies the result into _site/pyscript/. A package not on the list would still
+        # come from Pyodide's CDN.
+        pyscriptBundle = pkgs.fetchzip {
+          url = "https://github.com/pyscript/pyscript/releases/download/2026.7.3/offline_2026.7.3.zip";
+          hash = "sha256-8w0+sY+V8nGgyi+HA52QrI6dmQG8D7SxceihUkb6IqU=";
+        };
+        pyodidePackages = import ./_scripts/pyodide-packages.nix;
+        pyscript = pkgs.runCommand "pyscript-site" { } (
+          ''
+            cp -r ${pyscriptBundle}/pyscript $out
+            chmod -R u+w $out
+            cp ${pyscriptBundle}/mini-coi-fd.js $out/
+          ''
+          + pkgs.lib.concatMapStrings (w: ''
+            cp ${
+              pkgs.fetchurl {
+                url = "https://cdn.jsdelivr.net/pyodide/v${pyodidePackages.version}/full/${w.file}";
+                inherit (w) sha256;
+              }
+            } $out/pyodide/${w.file}
+          '') pyodidePackages.wheels
+        );
+
         pythonEnv = python.withPackages (
           ps: with ps; [
             # Quarto's Jupyter engine
@@ -161,6 +190,7 @@
           ];
           QUARTO_PYTHON = "${pythonEnv}/bin/python";
           JUPYTER_PATH = "${kernels}";
+          PYSCRIPT_DIR = "${pyscript}";
         };
       }
     );

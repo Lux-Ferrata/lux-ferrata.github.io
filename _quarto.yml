@@ -1,5 +1,6 @@
 project:
   type: website
+  post-render: _scripts/pyscript.sh   # copies the flake's PyScript bundle into _site/pyscript/
   resources:
   - CNAME
   - fonts/
