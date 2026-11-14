@@ -2,7 +2,7 @@
   description = "lux-ferrata.org: Quarto blog";
 
   # flake.lock is pinned to the same nixpkgs revision as
-  # ~/Projects/FPAA_P-Bit_Computer/flake.lock (and the Wiki's Anki-deck checks),
+  # ~/Projects/Probabilistic_Computer/flake.lock (and the Wiki's Anki-deck checks),
   # so the library versions match what the decks were checked against.
   # Move the two pins together.
   inputs = {
@@ -36,6 +36,23 @@
           pythonImportsCheck = [ "mcpyrate" ];
           doCheck = false;
         };
+
+        # The %%tikz cell magic (python/tn_tikz.py, kept by hand from Technonomicon), loaded
+        # by the python3 kernel below. It compiles with pdflatex and pdf2svg from `tex` and
+        # the dev shell.
+        tnTikz = python.pkgs.toPythonModule (
+          pkgs.runCommand "tn-tikz" { } ''
+            install -Dm644 ${./python/tn_tikz.py} $out/${python.sitePackages}/tn_tikz.py
+          ''
+        );
+        tex = pkgs.texliveBasic.withPackages (
+          ps: with ps; [
+            standalone
+            pgf
+            tikz-cd
+            amsfonts
+          ]
+        );
 
         pythonEnv = python.withPackages (
           ps: with ps; [
@@ -73,6 +90,7 @@
             # other kernels and languages
             bash-kernel
             mcpyrate
+            tnTikz
           ]
         );
 
@@ -97,6 +115,7 @@
                 "${pythonEnv}/bin/python"
                 "-m"
                 "ipykernel_launcher"
+                "--ext=tn_tikz"
                 "-f"
                 "{connection_file}"
               ];
@@ -137,6 +156,8 @@
             julia
             pkgs.pyrefly
             pkgs.git
+            tex
+            pkgs.pdf2svg
           ];
           QUARTO_PYTHON = "${pythonEnv}/bin/python";
           JUPYTER_PATH = "${kernels}";
